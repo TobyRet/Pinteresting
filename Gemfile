@@ -1,8 +1,9 @@
 source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.0.rc2'
+gem 'rails', '4.0.0'
 gem 'jquery-rails'
+gem 'devise'
 gem 'turbolinks'
 
 group :production do
@@ -11,13 +12,13 @@ end
 
 group :development, :test do
     gem 'sqlite3'
+    gem 'rails_12factor'
 end
 
-gem 'sass-rails', '~> 4.0.0.rc2'
+gem 'sass-rails', '~> 4.0.0'
 gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.0.0'
-gem 'bootstrap-sass', '~> 2.2.2.0'
-gem 'rails_12factor', group: :production
+gem 'bootstrap-sass', '~> 2.3.2.1'
 
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 1.2'

@@ -1,14 +1,27 @@
 $baseFontFamily: Oxygen;
+$bodyBackground: #bdc3c7;
+$navbarBackground: #fff;
+$navbarBackgroundHighlight: #fff;
+$navbarBrandColor: #c0392b;
+$heroUnitBackground: #fff;
+$btnPrimaryBackground: #c0392b;
+$btnPrimaryBackgroundHighlight: #c0392b;
+$btnDefaultPrimaryBackground: #fff;
+$btnDefaultBackgroundHighlight: #fff;
+
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
 
 @import 'bootstrap';
 
 body {
-	padding-top: 60px;
+	padding-top: 80px;
 }
 
 @import 'bootstrap-responsive';
 
+.nav-brand {
+	font-weight: bold;
+}
 
 .footer {
 	margin-top: 50px;
@@ -16,4 +29,8 @@ body {
 		a {
 			color: $gray;
 		}
+}
+
+.center {
+	text-align: center;
 }
