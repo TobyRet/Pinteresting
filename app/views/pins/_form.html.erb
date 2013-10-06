@@ -1,5 +1,5 @@
 <div class="well well-large">
-  <%= form_for(@pin) do |f| %>
+  <%= form_for @pin, html: { multipart: true } do |f| %>
     <% if @pin.errors.any? %>
       <div id="error_explanation">
         <h2><%= pluralize(@pin.errors.count, "error") %> prohibited this pin from being saved:</h2>
@@ -13,7 +13,12 @@
     <% end %>
 
     <div class="field">
-      <%= f.label :description %><br>
+      <%= f.label :image %>
+      <%= f.file_field :image, class: "input-block-level"  %>
+    </div><br>
+
+    <div class="field">
+      <%= f.label :description %>
       <%= f.text_field :description, class: "input-block-level"  %>
     </div>
     <div class="actions">
