@@ -1,15 +1,15 @@
-$baseFontFamily: Oxygen;
-$bodyBackground: #bdc3c7;
-$navbarBackground: #fff;
-$navbarBackgroundHighlight: #fff;
-$navbarBrandColor: #c0392b;
-$heroUnitBackground: #fff;
-$btnPrimaryBackground: #c0392b;
-$btnPrimaryBackgroundHighlight: #c0392b;
-$btnDefaultPrimaryBackground: #fff;
-$btnDefaultBackgroundHighlight: #fff;
-
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
+
+$body-bg: 									#ecf0f1;
+$font-family-sans-serif: 		'Oxygen', 'Helvetica Neue', Helvetica, Arial;
+$navbar-height: 						45px;
+$navbar-inverse-bg: 				#2c3e50;
+$navbar-inverse-link-color: white;
+$brand-primary: 						#f39c12;
+$jumbotron-bg: 							#bdc3c7;
+$btn-primary-bg: 						#ea6153;
+$link-color:								#ea6153;
+
 
 @import 'bootstrap';
 
@@ -17,20 +17,15 @@ body {
 	padding-top: 80px;
 }
 
-@import 'bootstrap-responsive';
-
-.nav-brand {
+.navbar-brand {
 	font-weight: bold;
 }
 
 .footer {
 	margin-top: 50px;
-	color: $grayLight;
+	color: gray;
 		a {
-			color: $gray;
+			color: gray;
 		}
 }
 
-.center {
-	text-align: center;
-}
