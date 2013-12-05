@@ -1,4 +1,5 @@
-== README
+README
+==
 
 This is a site called Pinteresting built as part of the [One Month Rails](https://onemonthrails.com) course.
 
