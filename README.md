@@ -1,6 +1,6 @@
-README
-==
+Pinteresting
+============
 
-This is a site called Pinteresting built as part of the [One Month Rails](https://onemonthrails.com) course.
+This is a Pinterest clone I built using Ruby on Rails, Twitter Bootstrap and PostgreSQL. 
 
-[See a working version on Heroku](http://safe-oasis-6895.herokuapp.com/).
+[See a working version on Heroku](http://pinternet.herokuapp.com/).
